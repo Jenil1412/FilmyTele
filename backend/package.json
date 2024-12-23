@@ -5,7 +5,8 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "backend": "nodemon node index.js"
+    "backend": "nodemon node index.js",
+    "build": ""
   },
   "keywords": [],
   "author": "",
