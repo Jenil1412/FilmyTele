@@ -114,7 +114,7 @@ const CreateMovie = () => {
       // const result = await createMovie(formData).unwrap();
       setLoading(true);
       const response = await axios.post(
-        "http://localhost:3000/api/v1/movies/create-movie",
+        "https://filmytele.onrender.com/api/v1/movies/create-movie",
         formData, // Pass `formData` as the payload
         {
           withCredentials: true, // Include cookies for authentication

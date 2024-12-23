@@ -18,7 +18,7 @@ const app = express();
 // Allow requests from frontend origin
 app.use(
   cors({
-    origin: ["https://playbox-frontend.onrender.com", "http://localhost:5173"], // frontend URL
+    origin: ["https://filmygram.onrender.com", "http://localhost:5173"], // frontend URL
     methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
     allowedHeaders: ['Content-Type', 'Authorization', 'Cookie'],
     credentials: true,  // This ensures cookies are sent and received
